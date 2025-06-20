@@ -1,6 +1,6 @@
 {
 	"name": "cy-enter-iframe",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A custom Cypress command to handle interactions of elements within an iframe",
 	"main": "src/index.js",
 	"types": "src/index.d.ts",
