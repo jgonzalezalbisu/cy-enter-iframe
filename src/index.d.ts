@@ -12,6 +12,6 @@ declare namespace Cypress {
 		 * })
 		 * @returns The body of the iframe as a chainable Cypress command to keep interacting with elements within. This should be used with a `within(($iFrame)=>{...}) command to continue with the desired behaviors.
 		 */
-		enterIframeBody(iFrameSelectorCSS: string): Chainable<Subject>;
+		enterIframeBody(iFrameSelectorCSS: string): Chainable<Cypress.Subject>;
 	}
 }
