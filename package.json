@@ -4,15 +4,25 @@
 	"description": "A custom Cypress command to handle interactions of elements within an iframe",
 	"main": "src/index.js",
 	"types": "src/index.d.ts",
+	"files": [
+		"src/"
+	],
+	"peerDependencies": {
+		"cypress": ">=10.0.0"
+	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/jgonzalezalbisu/cy-enter-iframe"
 	},
 	"keywords": [
-		"Cypress",
+		"cypress",
 		"iframe",
-		"Testing",
-		"Automation"
+		"testing",
+		"automation",
+		"e2e",
+		"cypress-plugin",
+		"cypress-command",
+		"custom-command"
 	],
 	"author": "@jgonzalezalbisu (https://github.com/jgonzalezalbisu)",
 	"license": "MIT",
